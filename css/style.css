@@ -105,6 +105,7 @@ footer {
 }
 
 span {
+  width:100%;
   color:#FFFFFF;
   text-align:right;
   display:block;
