@@ -1,6 +1,6 @@
 body {
-  margin:0;
   background-color: #144E62;
+  margin:0;
 }
 
 
@@ -91,7 +91,8 @@ header {
 footer {
   width:100%;
   background-color:#E68A2E;
-  padding:10px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 .bottom a{
@@ -109,6 +110,6 @@ span {
   color:#FFFFFF;
   text-align:right;
   display:block;
-  padding:5px;
+  padding-top:5px;
   background:#000000;
 }
