@@ -8,6 +8,7 @@ body {
 
 
 header {
+<<<<<<< HEAD
    width:1024px;
    height:64px;
   background-color:#666666;
@@ -45,6 +46,11 @@ p {
   color:#FFFFFF;
 }
 
+=======
+  background:#5A5A5A;
+  padding:20px;
+}
+>>>>>>> parent of b694748... Contact page filled out along with minor changed to CSS and different layout on main screen
 /*'inline class'*/
 
 .inline {
@@ -58,13 +64,20 @@ p {
 }
 
 .inline a {
+<<<<<<< HEAD
    font-size:16px;
    color:#0099FF;
+=======
+  font-size:1.2em;
+  color:#0099CC;
+>>>>>>> parent of b694748... Contact page filled out along with minor changed to CSS and different layout on main screen
   text-decoration:none;
   padding-top:10px;
   padding-bottom:10px;
 }
+/*nav effect*/
 
+<<<<<<< HEAD
 /*Nav Element*/
 
 nav {
@@ -74,6 +87,15 @@ nav {
 .inline a:hover {
    border-top:2px solid #fff;
    border-bottom:2px solid #fff;
+=======
+.top a{
+  float:left;
+}
+
+.top a:hover {
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+>>>>>>> parent of b694748... Contact page filled out along with minor changed to CSS and different layout on main screen
 }
 
 /*Main Page Sizing*/
@@ -104,6 +126,12 @@ nav {
    width:100%;
    height:100%;
 }
+.content h1{
+  font-size:2.2em;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  color:#E68A2E;
+  padding-left:2%;
+}
 
 .left-column {
    float:left;
@@ -111,6 +139,7 @@ nav {
    min-height:228px;
 }
 
+<<<<<<< HEAD
 .left-column img{
    width:70%;
    height:50%;
@@ -138,6 +167,18 @@ nav {
    padding:0;
    width:100%;
    height:100%;
+=======
+.content p {
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+/*article*/
+.article {
+  width:30%;
+  float:right;
+>>>>>>> parent of b694748... Contact page filled out along with minor changed to CSS and different layout on main screen
 }
 
 .right-column img{
@@ -160,9 +201,15 @@ nav {
    text-align:center;
 }
 
+<<<<<<< HEAD
 .bottom {
    min-width:1024px;
    min-height:64px;
+=======
+.bottom a{
+  color:#5A5A5A;
+  float:left;
+>>>>>>> parent of b694748... Contact page filled out along with minor changed to CSS and different layout on main screen
 }
 
 .bottom nav {
