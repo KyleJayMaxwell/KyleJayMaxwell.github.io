@@ -9,7 +9,7 @@ body{
   margin:0 auto;
 }
 
-@media screen and (max-width:940px;){
+@media screen and (max-width:940px){
   .container{
     width:100%;
     background-color:#FFF;
