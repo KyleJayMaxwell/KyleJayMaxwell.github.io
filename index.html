@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="Viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
   <title>Kyle's Website</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="Author" content="KyleJayMaxwell">
@@ -9,9 +10,11 @@
 
 <body>
 
+<div class="page">
+
   <header>
 
-    <nav class="top">
+    <nav>
       <ul class="inline">
         <li><a href="#">Home</a></li>
         <li><a href="contact/contactindex.html">Contact Me</a></li>
@@ -20,20 +23,23 @@
       </ul>
     </nav>
 
-    </header>
-
       <div class="cover">
         <img src="images/covercom.jpg" alt="Panorama View of Roofs of Paris">
       </div>
+   </header>
 
-    <main>
+   <main>
 
-      <div class="content">
+    <div id="content">
+      <div id="greeting">
         <h1>Welcoming You with Warm Feelings!</h1>
+     </div>
 
+      <div class="article">
+         <img src="images/self1.jpg" alt="KyleJayMaxwell self image" class="align-center" />
+      </div>
 
-            <img src="images/self1.jpg" alt="KyleJayMaxwell self image" align="left" />
-            <p>
+      <div class="article">
               <ul>
                 <li>Designer</li>
                 <li>Photographer</li>
@@ -41,10 +47,9 @@
                 <li>Born in San Jose, CA</li>
                 <li>Colorado Local at Heart</li>
               </ul>
-            </p>
       </div>
 
-      <div class="article">
+      <div class="aside">
         <ul>
           <li><a href="contact/contactindex.html"><img src="images/contactsec.jpg" alt="Original Art by KyleJayMaxwell"></a></li>
           <li><a href="art/artindex.html"><img src="images/artsec.jpg" alt="Original Art by KyleJayMaxwell"></a></li>
@@ -66,11 +71,12 @@
         </ul>
       </div>
 
+      </div>
     </main>
 
     <footer>
 
-            <nav class="bottom">
+            <nav>
               <ul class="inline">
                 <li><a href="#">Home</a></li>
                 <li><a href="contact/contactindex.html">Contact Me</a></li>
