@@ -1,7 +1,5 @@
 body{
-<<<<<<< HEAD
   margin:0 auto;
-  position:fixed;
   top:0;
   left:0;
 }
@@ -9,7 +7,6 @@ body{
 .page {
   background-color: #144E62;
   min-width:100%;
-=======
   margin:0;
 }
 
@@ -18,7 +15,6 @@ body{
   height:100%;
   background-color: #144E62;
   margin:0 auto;
->>>>>>> b0a62342746fe3d8e72a2ee8b93b02aba46732d1
 }
 
 header {
@@ -76,10 +72,7 @@ nav a:hover {
 
 main{
   min-width:100%;
-<<<<<<< HEAD
-=======
   height:70%;
->>>>>>> b0a62342746fe3d8e72a2ee8b93b02aba46732d1
 }
 
 /*cover*/
@@ -91,7 +84,6 @@ main{
 
 .greeting{
   width:75%;
-<<<<<<< HEAD
 }
 
 /*content*/
@@ -102,7 +94,6 @@ main{
   min-width: 30%;
   height:80%;
   float:left;
-=======
 }
 
 /*content*/
@@ -137,11 +128,9 @@ main{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   font-size: 1.5em;
   color: #FFFFFF;
->>>>>>> b0a62342746fe3d8e72a2ee8b93b02aba46732d1
 }
 /*Right Column*/
 
-<<<<<<< HEAD
 .article img {
   width:90;
   height:90;
@@ -150,9 +139,6 @@ main{
 }
 
 /*Right Column*/
-
-=======
->>>>>>> b0a62342746fe3d8e72a2ee8b93b02aba46732d1
 .aside {
   display:inline-block;
   max-width:30%;
