@@ -287,26 +287,28 @@ span {
          color:#33CCFF;
      }
       .article{
+         display:block;
          min-width:100%;
          max-height:20%;
+         padding-left:18%;
+         padding-right:10%;
      }
      .article img{
       max-width:70%;
      }
-     .align-center{
-       display:block;
-       margin:0 auto;
-     }
      .column{
         display:block;
-        margin:0 auto;
         min-width:100%;
-        max-height:30%;
+        text-align:center;
      }
      .aside{
         display:block;
         position:relative;
         min-width:100%;
+        min-height:50%;
+     }
+     .aside img{
+        min-width:90%;
         max-height:30%;
      }
      .social{
