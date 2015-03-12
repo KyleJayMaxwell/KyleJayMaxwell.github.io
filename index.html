@@ -5,7 +5,7 @@
   <meta name="Viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
   <title>Kyle's Website</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="Author" content="KyleJayMaxwell">
 </head>
 
@@ -15,13 +15,14 @@
 
   <header>
 
-    <nav>
+    <nav class="top">
       <ul class="inline">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html"><img src="images/logohomesm.png" width=200 height=200/></a></li>
         <li><a href="contact/contactindex.html">Contact Me</a></li>
         <li><a href="finished/artindex.html">Finished Pieces</a></li>
         <li><a href="photo/photoindex.html">Photos</a></li>
       </ul>
+    <a href="#" id="pull"></a>
     </nav>
 
       <div class="cover">
@@ -83,11 +84,30 @@
                 <li><a href="contact/contactindex.html">Contact Me</a></li>
                 <li><a href="finished/artindex.html">Finished Pieces</a></li>
                 <li><a href="photo/photoindex.html">Photos</a></li>
+                </ul>
+                <a href="#" id="pull">Menu</a>
             </nav>
     </footer>
 
       <span> KyleJayMaxwell | 2015 &#169;</span>
 </div>
 </body>
-
+<script type="text/javascript">
+$(function(){
+    var pull = $('#pull');
+    menu = $('nav ul');
+    menuHeight = menu.height();
+    
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+    $(window).resize(funtion(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+    });
+</script>
 </html>
