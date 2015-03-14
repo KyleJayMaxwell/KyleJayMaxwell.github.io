@@ -5,12 +5,13 @@
   <meta name="Viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
   <title>Kyle's Website</title>
   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lemonade.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="Author" content="KyleJayMaxwell">
 </head>
 
 <body>
-
+<div class="frame">
 <div class="container">
 
   <header>
@@ -22,43 +23,39 @@
         <li><a href="finished/artindex.html">Finished Pieces</a></li>
         <li><a href="photo/photoindex.html">Photos</a></li>
       </ul>
-    <a href="#" id="pull"></a>
     </nav>
 
-      <div class="cover">
-        <img src="images/covercom.jpg" alt="Panorama View of Roofs of Paris" class="paris">
-      </div>
+        <img class="banner" src="images/covercom.jpg" alt="Panorama View of Roofs of Paris">
    </header>
 
    <main>
 
-    <div id="content">
       <div class="greeting">
-        <h1>Welcoming You with Warm Feelings!</h1>
+        <h1>Giving You A Warm Welcome</h1>
      </div>
 
-      <div class="article">
-            <img src="images/self1.jpg" alt="KyleJayMaxwell self image" align="left" />
-      </div>
-
-      <div class="article">
-              <ul>
+      <div class="bit-33">
+            <img src="images/self1.jpg" alt="KyleJayMaxwell self image" class="profile"/>
+        </div>
+        
+        <div class="bit-33">
+              <ul class="brief">
                 <li>Designer</li>
                 <li>Photographer</li>
                 <li>Front-End Coder</li>
                 <li>Born in San Jose, CA</li>
                 <li>Colorado Local at Heart</li>
               </ul>
-      </div>
+            </div>
 
-      <div class="aside">
-        <ul>
+        <div class="bit-33">
+        <ul class="aside">
           <li><a href="contact/contactindex.html"><img src="images/contactsec.jpg" alt="Original Art by KyleJayMaxwell"></a></li>
           <li><a href="art/artindex.html"><img src="images/artsec.jpg" alt="Original Art by KyleJayMaxwell"></a></li>
           <li><a href="photo/photoindex.html"><img src="images/photosec.jpg" alt="Original Art by KyleJayMaxwell"></a></li>
         </ul>
-      </div>
-
+        </div>
+            
       <div class="social">
         <ul class="inline">
           <li><a href="https://twitter.com/KyleJayMaxwell">
@@ -72,42 +69,22 @@
           </a></li>
         </ul>
       </div>
-
-      </div>
     </main>
 
     <footer>
 
-            <nav>
+            <nav class="bottom">
               <ul class="inline">
                 <li><a href="#">Home</a></li>
                 <li><a href="contact/contactindex.html">Contact Me</a></li>
                 <li><a href="finished/artindex.html">Finished Pieces</a></li>
                 <li><a href="photo/photoindex.html">Photos</a></li>
                 </ul>
-                <a href="#" id="pull">Menu</a>
             </nav>
+              <span> KyleJayMaxwell | 2015 &#169;</span>
     </footer>
 
-      <span> KyleJayMaxwell | 2015 &#169;</span>
 </div>
+    </div>
 </body>
-<script type="text/javascript">
-$(function(){
-    var pull = $('#pull');
-    menu = $('nav ul');
-    menuHeight = menu.height();
-    
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
-});
-    $(window).resize(funtion(){
-    var w = $(window).width();
-    if(w > 320 && menu.is(':hidden')) {
-        menu.removeAttr('style');
-    }
-    });
-</script>
 </html>
