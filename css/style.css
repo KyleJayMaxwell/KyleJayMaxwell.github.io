@@ -1,32 +1,25 @@
-.bit-33{
-    display:inline-block;
-    width:33%;
-    height:auto;
-}
-.bit-34{
-    display:inline-block;
-    width:34%;
-}
 body{
-   min-width:100%;
-    min-height:100%;
-   text-align:left;
-   margin:0px;
-   padding:0px;
-    background-image:url(../images/bglarge.jpg);
-    background-repeat: repeat;
+  min-width:100%;
+  min-height:100%;
+  text-align:left;
+  margin:0px;
+  padding:0px;
+  background-color: tomato;
 }
 .container {
   max-width:90%;
-  background-color: #144E62;
+  background-color: darkcyan;
   margin:0 auto;
 }
 
 header {
   background-color:#666666;
 }
+main{
+  max-width: 90%;
+}
 .banner{
-    width:100%;
+    min-width:100%;
 }
 
 h1{
@@ -79,15 +72,6 @@ nav a:visited{
    color:Cornsilk;
 }
 
-/*Main Page*/
-
-main{
-    clear:both;
-  min-width:100%;
-}
-
-/*cover*/
-
 /*greeting*/
 
 .greeting{
@@ -106,6 +90,10 @@ main{
 .profile {
   max-width:80%;
   border-radius: 10% 30% 10%;
+}
+
+.brief ul{
+    display: inline-block;
 }
 .brief li {
     text-decoration: none;
@@ -152,6 +140,9 @@ span {
   padding-top:5px;
   background:#000000;
 }
+
+
+
 .contact{
    width:100%;
 }
@@ -205,7 +196,7 @@ span {
     
 /*Media Queries*/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
 .container{
     background-color:#00CCFF;
 }

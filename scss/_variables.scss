@@ -1,0 +1,36 @@
+$inline: inline-block;
+$no: none;
+$blue: darkturquoise;
+$full: 100%;
+$silv: silver;
+
+body {
+    background-color: $blue;
+    min-width:$full;
+}
+
+.container{
+	max-width:90%;
+}
+
+header{
+	min-width:$full;
+	color:$silv;
+}
+
+nav li {
+    display: $inline;
+    text-decoration: $no;
+}
+
+main{
+	min-width:$full;
+}
+
+.banner{
+	min-width:$full;
+}
+
+.greeting h1{
+	color:
+}
