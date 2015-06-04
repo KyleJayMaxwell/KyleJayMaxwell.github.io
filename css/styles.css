@@ -1,6 +1,41 @@
 body {
   background-color: darkturquoise; }
 
+nav {
+  color: burlywood; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+nav ul {
+  list-style: none; }
+
 nav li {
-  display: inline-block;
-  text-decoration: none; }
+  display: inline-block; }
+
+.orbit-container {
+  padding: none; }
+
+.profile {
+  border-radius: 50%; }
+
+.list {
+  list-style: none;
+  text-align: center; }
+
+.list li {
+  font-size: 35px; }
+
+.sidebar {
+  list-style: none;
+  float: right; }
+
+.social {
+  list-style: none;
+  text-align: center; }
+
+.social li {
+  display: inline; }

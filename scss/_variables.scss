@@ -1,36 +1,59 @@
 $inline: inline-block;
-$no: none;
+$wood: burlywood;
 $blue: darkturquoise;
-$full: 100%;
-$silv: silver;
+$no: none;
 
 body {
     background-color: $blue;
-    min-width:$full;
 }
 
-.container{
-	max-width:90%;
+nav {
+	color: $wood;
 }
 
-header{
-	min-width:$full;
-	color:$silv;
+.left{
+	float:left;
+}
+
+.right{
+	float: right;
+}
+
+nav ul{
+	list-style: none;	
 }
 
 nav li {
-    display: $inline;
-    text-decoration: $no;
+	display: $inline;
 }
 
-main{
-	min-width:$full;
+.orbit-container{
+	padding:none;
 }
 
-.banner{
-	min-width:$full;
+.profile {
+	border-radius: 50%;
 }
 
-.greeting h1{
-	color:
+.list {
+	list-style: none;
+	text-align: center;
+}
+
+.list li {
+	font-size:35px;
+}
+
+.sidebar{
+	list-style:none;
+	float: right;
+}
+
+.social {
+	list-style:none;
+	text-align: center;
+}
+
+.social li {
+	display:inline;	
 }
