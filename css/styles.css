@@ -34,8 +34,11 @@ nav li {
   float: right; }
 
 .social {
-  list-style: none;
-  text-align: center; }
+  list-style: none; }
 
 .social li {
   display: inline; }
+
+span {
+  background-color: black;
+  text-color: white; }
