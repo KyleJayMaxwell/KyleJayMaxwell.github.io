@@ -7,7 +7,20 @@
 :: Page Name 1
 :: Page Name 2
 */
-
+img[hero]{
+  max-height: 400px;
+  width: 100%;
+}
+ul.social li{
+  margin: 1em 1em 0 0;
+}
+ul[about]{
+  text-align: center;
+  font-size: 32px;
+}
+img[profile]{
+  border-radius: 50%;
+}
 
 /* -----------------------------------------
    Shared Styles
