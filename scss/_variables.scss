@@ -2,28 +2,30 @@
 // $monsoon     : #777777;
 
 body{
+	background-color:burlywood;
+	font-size:100%;
+}
+.bodyindex{
 	background-color:black;
 	font-size:100%;
 }
 
 h1{
-	padding-bottom:4%;
 	font-size:3em;
-	color:whitesmoke;
+	color:black;
 }
 
-h3{
-	padding-bottom:2%;
-	color:whitesmoke;
-}
-.about {
-	font-size:1.75em;
-	color:whitesmoke;
-	text-align:center;	
+.indextitle{
+	padding-bottom:4%;
 }
 
 .profile {
 	border-radius: 50%;
+}
+
+.sidebar{
+	list-style:none;
+	text-align:center;
 }
 
 .quote{
@@ -34,21 +36,61 @@ h3{
 	padding-bottom:10%;
 }
 
-.sidebar{
-	list-style:none;
-	text-align:center;
-}
-
-
 .social{
 	padding-top:5%;
 	padding-bottom:5%;
 }
 
-span{
-	color:wheat;
+p {
+	color:dimgrey;
 }
 
-p {
+span{
 	color:whitesmoke;
+}
+
+.about {
+	font-size:1.75em;
+	text-align:center;	
+}
+.abouttitle {
+	font-family: "Times New Roman", Times, serif;
+	padding-bottom: 2%;
+}
+
+.aboutme {
+	font-family: Arial, Helvetica, sans-serif;
+	color: dimgrey;
+	padding-bottom: 2%;
+}
+
+.aboutpara {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-title{
+	font-family: "Times New Roman", Times, serif;	
+	padding-bottom: 3%;
+}
+
+.contactme {
+	font-family: Arial, Helvetica, sans-serif;
+	color: dimgrey;
+}
+
+.contactsocial {
+	padding-top: 10%;
+}
+
+.designtitle {
+	font-family: "Times New Roman", Times, serif;
+	padding-bottom: 2%;
+}
+
+.designpara {
+	font-family: Arial, Helvetica, sans-serif;
+	color: dimgrey;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
 }
