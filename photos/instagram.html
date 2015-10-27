@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="../bower_components/foundation/css/normalize.min.css">
   <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
   <link rel="stylesheet" href="../css/app.css">
-  <title>In Progress</title>
+  <title>Instagram</title>
   <script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
 </head>
 <body class="bodya">
@@ -26,8 +26,8 @@
           <li class="has-dropdown">
             <a href="../designs.html">Designs</a>
             <ul class="dropdown">
-              <li><a href="progress.html">In Progress</a></li>
-              <li><a href="finished.html">Finished</a></li>
+              <li><a href="../design/progress.html">In Progress</a></li>
+              <li><a href="../design/finished.html">Finished</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
@@ -35,7 +35,7 @@
             <ul class="dropdown">
               <li><a href="photos/portraits.html">Portraits</a></li>
               <li><a href="photos/nature.html">Landscapes</a></li>
-              <li><a href="photos/instagram.html">Instagram</a></li>
+              <li><a href="#">Instagram</a></li>
               <li><a href="photos/misc.html">Miscellaneous</a></li>
             </ul>
           </li>
@@ -44,38 +44,21 @@
       </section>
     </nav>
   </div>
-
-	<div class="row">
-		<div class="small-12 columns">
-			<h1>Working On...</h1>
-		</div>
-	</div>
-
+  
   <div class="row">
-    <div class="large-12">
-      <ul class="clearing-thumbs small-block-grid-3" data-clearing>
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/cashbuild.jpg">
-          <img aria-hidden=true src="../images/inprog/cashbuild.jpg">
-        </a></li>
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/NYLon.jpg">
-          <img aria-hidden=true src="../images/inprog/NYLon.jpg">
-        </a></li>
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/double.jpg">
-          <img aria-hidden=true src="../images/inprog/double.jpg">
-        </a></li>
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/eagle.jpg">
-          <img aria-hidden=true src="../images/inprog/eagle.jpg">
-        </a></li>
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/dean.jpg">
-          <img aria-hidden=true src="../images/inprog/dean.jpg">
-        <li><a class="th" role="button" aria-label="Thumbnail" href="../images/inprog/vme.jpg">
-          <img aria-hidden=true src="../images/inprog/vme.jpg">
-        </a></li>
-        </a></li>
-      </ul>
+    <div class="small-6 columns">
+      <div id="instagram">
+        <ul>
+        </ul>
+      </div>
+    </div>
+    <div class="small-6 columns">
+      <div id="instagram2">
+        <ul>
+        </ul>
+      </div>
     </div>
   </div>
-
 
   <div class="row">
    <div class="small-9 medium-6 large-4 small-centered columns">
@@ -106,7 +89,36 @@
 
      <span>KyleJayMaxwell &copy;</span>
 
+  
   <script src="../bower_components/foundation/js/vendor/jquery.js"></script>
+  <script type="text/javascript">
+$.ajax({
+  url: 'https://api.instagram.com/v1/users/1721552028/media/recent?access_token=1721552028.5b9e1e6.1ef4cc17d83a4c14990feaffc31b5b90',
+  type: 'GET',
+  data: {
+    format: 'json'
+  },
+  error: function(){
+    alert('An error has occurred');
+  },
+  success: function(results){
+    for(i=0;i<results.data.length;i++){
+      console.log(results.data[i]);
+      if(i%2){      
+        var post2 = results.data[i].images.standard_resolution.url;
+        var text2 = results.data[i].caption.text;
+        var limit2 = text2.substring(0, 35);
+        var link2 = results.data[i].link;
+        $('#instagram2 ul').append("<li><img src=\""+post2+"\" /><p>"+limit2+"... <a class=\"iglink\" href=\"link2\">See the Picture</a></p></li>");
+      } else{
+        var post = results.data[i].images.standard_resolution.url;
+        var text = results.data[i].caption.text;
+        var limit = text.substring(0, 35);
+        var link = results.data[i].link;
+        $('#instagram ul').append("<li><img src=\""+post+"\" /><p>"+limit+"... <a class=\"iglink\" href=\"link\">See the Picture</a></p></li>");      }
+    }
+  }
+});</script>
   <script src="../bower_components/foundation/foundation.js"></script>
   <script src="../bower_components/foundation/js/foundation.min.js"></script>
   <script src="../bower_components/foundation/foundation.clearing.js"></script>
