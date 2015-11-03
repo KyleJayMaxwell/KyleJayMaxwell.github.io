@@ -69,6 +69,12 @@
   </div>
 
   <div class="row">
+    <div class="large-12 columns">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="small-9 medium-6 large-4 small-centered columns">
      <ul class="inline-list contactsocial">
       <li>
@@ -99,6 +105,41 @@
      
   <script src="bower_components/foundation/js/vendor/jquery.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGZu-0pnYW5TvO1IcgaUXyGEONDyoGbwg&callback=initMap"></script>
+    <script type="text/javascript">  
+      var map;
+        function initMap() {
+          var myLatLng = {lat: 39.757609, lng: -105.007005};
+          map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: myLatLng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          });
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'I\'m a Marker!'
+        });
+      }
+
+      function addMarker(location, title){
+       marker = new google.maps.Marker({
+       position: myLatLng,
+       map: map,
+       title: title
+       });
+      }
+
+      function userInputMarker(){
+      var lat = $('.lat').val();
+      var lon = $('.long').val();
+      console.log(parseInt(lat), parseInt(lon));
+    }
+    </script>
+    <script type="text/javascript" src="jsMap.js"></script>
+    <script>initMap;</script>
   <script>
     $(document).foundation();
   </script>
