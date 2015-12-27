@@ -2,6 +2,16 @@
 // $monsoon     : #777777;
 // $black   	: #212121;
 
+.top-bar {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: #333333;
+  -webkit-box-shadow: 0px 1px 5px #222222;
+-moz-box-shadow: 0px 1px 5px #222222;
+box-shadow: 0px 1px 5px #222222; }
+
 // Body 1 Index and Design
 
 .bodya{
