@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/normalize.min.css">
   <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/normalize.min.css">
   <link rel="stylesheet" href="css/app.css">
   <title>Kyle's Website</title>
-  <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
 </head>
+
 <body class="bodya">
+
   <div class="contain-to-grid fixed">
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
@@ -24,29 +25,18 @@
         <ul class="right">
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li class="has-dropdown">
-            <a href="designs.html">Designs</a>
-            <ul class="dropdown">
-              <li><a href="design/progress.html">In Progress</a></li>
-              <li><a href="design/finished.html">Finished</a></li>
-            </ul>
-          </li>
-          <li class="has-dropdown">
-            <a href="photography.html">Photography</a>
-            <ul class="dropdown">
-              <li><a href="photos/instagram.html">Instagram</a></li>
-              <li><a href="photos/land.html">Landscapes</a></li>
-              <li><a href="photos/portraits.html">Portraits</a></li>
-              <li><a href="photos/products.html">Products</a></li>
-            </ul>
-          </li>
+          <li><a href="design/index.html">Designs</a></li>
+          <li><a href="photos/index.html">Photography</a></li>
           <li><a href="web.html">Websites</a></li>
         </ul>
       </section>
     </nav>
   </div>
   
-  <ul class="example-orbit" data-orbit>
+  <ul class="orbit1" data-orbit data-options="slide_number: false;
+      pause_on_hover:false;
+      navigation_arrows:false;
+      bullets:false;">
     <li>
       <img src="images/cover1.jpg" alt="slide 1" />
       <div class="orbit-caption">
@@ -83,17 +73,17 @@
       </div>
       <div class="row">
         <div class="medium-12 columns">
-          <h2 class="quote"><em>C'est La Vie</em></h2>
+          <h1 class="quote"><em>C'est La Vie</em></h1>
         </div>
       </div>
     </div>
     <div class="medium-4 columns">
       <ul class="sidebar">
-        <li><a href="about.html"><img src="images/aboutsidebar.jpg" width="260"></a></li>
-        <li><a href="contact.html"><img src="images/contactsidebar.jpg" class="bookmark" width="260"></a></li>
-        <li><a href="designs.html"><img src="images/designsidebar.jpg" width="260"></a></li>
-        <li><a href="photography.html"><img src="images/photographysidebar.jpg" width="260"></a></li>
-        <li><a href="web.html"><img src="images/websitesidebar.jpg" width="260"></a></li>
+        <li><a href="about.html"><img src="images/aboutsidebar.jpg"></a></li>
+        <li><a href="contact.html"><img src="images/contactsidebar.jpg" class="bookmark"></a></li>
+        <li><a href="designs.html"><img src="images/designsidebar.jpg"></a></li>
+        <li><a href="photography.html"><img src="images/photographysidebar.jpg"></a></li>
+        <li><a href="web.html"><img src="images/websitesidebar.jpg"></a></li>
       </ul>
     </div>
   </div>
@@ -129,6 +119,8 @@
 
   <script src="bower_components/foundation/js/vendor/jquery.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
   <script>
     $(document).foundation();
   </script>
