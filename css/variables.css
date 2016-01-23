@@ -4,14 +4,21 @@
 .bodyb{
   background-color:#9E9E9E;
 }
+.bodyc{
+  background-color:#F5F5F5;
+}
 nav{
   min-width: 100%;
   background-color: #333333;
   position: fixed;
+  box-shadow: 0 4px 2px -2px black;
+
 }
 nav a{
-  text-decoration:none;
   font-size: 1.2em;
+}
+.no-decoration{
+  text-decoration:none;
 }
 .nav-left{
   padding-left: 3%;
@@ -43,6 +50,9 @@ nav a{
 }
 .no-bullets {
   list-style: none;
+}
+.square{
+  max-width: 90%;
 }
 .logo{
   max-width: 60%;
@@ -82,4 +92,7 @@ nav a{
 }
 .about-color{
   color: #F5F5F5;
+}
+.contact-para{
+  color: #727272;
 }

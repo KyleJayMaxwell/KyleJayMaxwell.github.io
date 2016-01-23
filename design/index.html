@@ -1,73 +1,66 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en" >
+<html class="no-js" class="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../bower_components/foundation/css/normalize.min.css">
-  <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
-  <link rel="stylesheet" href="../css/app.css">
-  <title>Kyle's Designs</title>
-  <script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../css/variables.css">
+  <title>About Kyle</title>
 </head>
 
 <body class="bodya">
   
-  <div class="contain-to-grid fixed">
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="index.html">KyleJayMaxwell</a></h1>
-        </li>
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#">Designs</a></li>
-          <li><a href="../photos/index.html">Photography</a></li>
-          <li><a href="web.html">Websites</a></li>
+  <nav>
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="nobullets">
+          <li class="inline left nav-left"><a href="../index.html" class="white no-decoration">KyleJayMaxwell</a></li>
+          <li class="inline right nav-right"><a href="../web.html" class="white no-decoration">Websites</a></li>
+          <li class="inline right nav-right"><a href="../photos/index.html" class="white no-decoration">Photography</a></li>
+          <li class="inline right nav-right"><a href="#" class="active no-decoration">Designs</a></li>
+          <li class="inline right nav-right"><a href="../contact.html" class="white no-decoration">Contact</a></li>
+          <li class="inline right nav-right"><a href="../about.html" class="white no-decoration">About</a></li>
         </ul>
-      </section>
-    </nav>
-  </div>
+      </div>
+    </div>
+  </nav>
 
   <div class="row">
-    <div class="large-12 columns">
-      <h1 class="designtitle">Designs</h1>
+    <div class="twelve columns">
+      <h1 class="title white">Designs by Kyle</h1>
     </div>
   </div>
 
   <div class="row">
-    <div class="large-6 columns">
-      <a href="../design/progress.html"><img src="../images/finished.jpg"><h3 class="designsect">Finished</h3></a>
+    <div class="one-half column center">
+      <a href="../design/finished.html" class="no-decoration"><h3 class="designsect">Finished</h3><img src="../images/finished.jpg" class="square"></a>
     </div>
-    <div class="large-6 columns">
-      <a href="../design/progress.html"><img src="../images/inprog.jpg"><h3 class="designsect">In Progress</h3></a>
+    <div class="one-half column center">
+      <a href="../design/progress.html" class="no-decoration"><h3 class="designsect">In Progress</h3><img src="../images/inprog.jpg" class="square"></a>
     </div>
   </div>
 
   <div class="row">
-   <div class="small-9 medium-6 large-4 small-centered columns">
-     <ul class="inline-list social">
-      <li>
+   <div class="twelve columns">
+     <ul class="no-bullets center">
+      <li class="inline social">
        <a href="https://twitter.com/KyleJayMaxwell">
         <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
        </a>
       </li>
-      <li>
+      <li class="inline social">
        <a href="https://www.linkedin.com/in/kylejaymaxwell">
         <img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" />
        </a>
       </li>
-      <li>
+      <li class="inline social">
        <a href="https://www.facebook.com/pages/Kyle-Jay-Maxwell/663149607123938">
         <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
        </a>
       </li>
-      <li>
+      <li class="inline social">
        <a href="https://instagram.com/kylejaymaxwell/">
         <img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
        </a>
@@ -76,12 +69,11 @@
     </div>
   </div>
   
-  <script src="../bower_components/foundation/js/vendor/jquery.js"></script>
-  <script src="../bower_components/foundation/js/foundation.min.js"></script>
-  <script src="bower_components/foundation/js/foundation.topbar.js"></script>
-  <script type="text/javascript"></script>
-  <script>
-    $(document).foundation();
-  </script>
+  <div class="row">
+    <div class="twelve">
+      <span>KyleJayMaxwell &copy;</span>
+    </div>
+  </div> 
+
 </body>
 </html>
