@@ -7,6 +7,7 @@
 .bodyc{
   background-color:#F5F5F5;
 }
+
 nav{
   min-width: 100%;
   background-color: #333333;
@@ -95,4 +96,15 @@ nav a{
 }
 .contact-para{
   color: #727272;
+}
+#instagram img{
+  max-width: 80%;
+}
+#instagram2 img{
+  max-width: 80%;
+}
+.designsect {
+  margin-top: 2%;
+  color: #666B6A;
+}
 }

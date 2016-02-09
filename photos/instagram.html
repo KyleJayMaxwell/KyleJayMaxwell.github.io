@@ -35,15 +35,15 @@
   </div>
   
   <div class="row">
-    <div class="one-half columns">
-      <div id="instagram" class="">
-        <ul>
+    <div class="one-half column">
+      <div>
+        <ul id="instagram" class="no-bullets center">
         </ul>
       </div>
     </div>
     <div class="one-half column">
-      <div id="instagram2">
-        <ul>
+      <div>
+        <ul id="instagram2" class="no-bullets center">
         </ul>
       </div>
     </div>
@@ -101,13 +101,13 @@ $.ajax({
         var text2 = results.data[i].caption.text;
         var limit2 = text2.substring(0, 35);
         var link2 = results.data[i].link;
-        $('#instagram2 ul').append("<li><img src=\""+post2+"\" /><p>"+limit2+"... <a class=\"iglink\" href=\"link2\">See the Picture</a></p></li>");
+        $('#instagram2').append("<li><img src=\""+post2+"\" /><p>"+limit2+"... <a class=\"iglink\" href=\"link2\">See the Picture</a></p></li>");
       } else{
         var post = results.data[i].images.standard_resolution.url;
         var text = results.data[i].caption.text;
         var limit = text.substring(0, 35);
         var link = results.data[i].link;
-        $('#instagram ul').append("<li><img src=\""+post+"\" /><p>"+limit+"... <a class=\"iglink\" href=\"link\">See the Picture</a></p></li>");      }
+        $('#instagram').append("<li class='none'><img src=\""+post+"\" /><p>"+limit+"... <a class=\"iglink\" href=\"link\">See the Picture</a></p></li>");      }
     }
   }
 });</script>
