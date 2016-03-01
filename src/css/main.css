@@ -1,1 +1,78 @@
 /* add custom styles */
+.bodya{
+  background-color:#9E9E9E;
+}
+.bodyb{
+  background-color:#9E9E9E;
+}
+.bodyc{
+  background-color:#F5F5F5;
+}
+
+nav{
+  min-width: 100%;
+  background-color: #616161;
+  box-shadow: 0 4px 2px -2px black;
+
+}
+nav a{
+  font-size: 1.2em;
+}
+.no-decoration{
+  text-decoration:none;
+}
+.nav-left{
+  padding-left: 3%;
+  padding-top: 1%;
+}
+.nav-right{
+  padding-right: 3%;
+  padding-top: 1%;
+}
+.title{
+  margin-left: 5%;
+  font-size:4em;
+}
+.white{
+  color: #F5F5F5;
+}
+.inline{
+  display: inline-block;
+}
+.right{
+  float: right;
+}
+.left {
+  float: left;
+}
+.cover{
+  max-height: 100%;
+  max-width: 100%;
+}
+.no-bullets {
+  list-style: none;
+}
+.no-margin{
+  margin:0 auto;
+}
+.margin-top{
+  margin-top: 2%;
+}
+.margin-right{
+  margin-right: 2%;
+}
+.margin-left{
+  margin-left: 2%;
+}
+.center{
+  text-align: center;
+}
+.social{
+  padding: 2%;
+}
+
+
+
+footer{
+  background-color: white;
+}
