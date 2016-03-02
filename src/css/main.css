@@ -1,22 +1,19 @@
 /* add custom styles */
-.bodya{
-  background-color:#9E9E9E;
-}
-.bodyb{
-  background-color:#9E9E9E;
-}
-.bodyc{
-  background-color:#F5F5F5;
-}
-
 nav{
+  top: 0;
   min-width: 100%;
-  background-color: #616161;
+  background-color: #808080;
   box-shadow: 0 4px 2px -2px black;
-
 }
-nav a{
-  font-size: 1.2em;
+a{
+  color: #6CCFF6;
+}
+h5{
+  margin-top: 5%;
+}
+.container{
+  min-width: 100%;
+  min-height: 100%;
 }
 .no-decoration{
   text-decoration:none;
@@ -30,11 +27,13 @@ nav a{
   padding-top: 1%;
 }
 .title{
-  margin-left: 5%;
   font-size:4em;
 }
 .white{
-  color: #F5F5F5;
+  color: #FFFFFF;
+}
+.grey{ 
+  background-color: #808080;
 }
 .inline{
   display: inline-block;
@@ -56,7 +55,7 @@ nav a{
   margin:0 auto;
 }
 .margin-top{
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .margin-right{
   margin-right: 2%;
@@ -70,9 +69,39 @@ nav a{
 .social{
   padding: 2%;
 }
+.tile{
+  background-color: blue;
+  min-width: 100%;
+}
+.columnContainer{
+  min-width: 100%;
+}
+.columnContainer img{
+  margin-top: 2%;
+  max-width: 55%;
+  border-radius: 50%;
+}
+.columnContainer li{
+  margin-top: 3%;
+  font-size: 3rem;
+}
+
+.profilepic{
+  max-width: 60%;
+  border-radius: 50%;
+}
+.bg {
+  padding: 5px; 
+  background-color: #808080;
+}
+
 
 
 
 footer{
-  background-color: white;
+  background-color: #000000;
+  bottom: 0;
+}
+footer h6{
+  color: #FFFFFF;
 }
