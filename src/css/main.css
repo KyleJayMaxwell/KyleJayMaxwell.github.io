@@ -11,12 +11,18 @@ a{
 h5{
   margin-top: 5%;
 }
+h6{
+  color: #ffffff;
+}
 .container{
   min-width: 100%;
   min-height: 100%;
 }
 .no-decoration{
   text-decoration:none;
+}
+.insidelist{
+  list-style-position: inside;
 }
 .nav-left{
   padding-left: 3%;
@@ -58,7 +64,10 @@ h5{
   margin:0 auto;
 }
 .margin-top{
-  margin-top: 3%;
+  margin-top: 4%;
+}
+.margin-bottom {
+  margin-bottom: 4%;
 }
 .margin-right{
   margin-right: 2%;
@@ -96,7 +105,4 @@ h5{
 footer{
   background-color: #000000;
   bottom: 0;
-}
-footer h6{
-  color: #FFFFFF;
 }
