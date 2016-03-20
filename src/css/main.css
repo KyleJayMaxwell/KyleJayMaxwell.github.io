@@ -129,12 +129,13 @@ h6{
 }
 
 .banner {
-  background-image: url(../images/chair.jpg);
+  background-image: url(../images/ski.jpg);
   background-size: 100%;  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
 }
+
 
 .box{
   /* this is what is necessary */
