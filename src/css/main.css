@@ -1,0 +1,153 @@
+/* add custom styles */
+
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+@font-face {
+    font-family: Supreme;
+    src: url(../fonts/supreme.otf);
+}
+h1{
+  font-family: Supreme, "Times New Roman", Times, serif;
+}
+nav{
+  top: 0;
+  min-width: 100%;
+  background-color: #808080;
+  box-shadow: 0 4px 2px -2px black;
+  font-size: 1.2em;
+}
+a{
+  color: #6CCFF6;
+}
+h5{
+  margin-top: 5%;
+}
+h6{
+  color: #ffffff;
+}
+
+
+.container{
+  min-width: 100%;
+  min-height: 100%;
+}
+.no-decoration{
+  text-decoration:none;
+}
+.insidelist{
+  list-style-position: inside;
+}
+.nav-left{
+  padding-left: 3%;
+  padding-top: 1%;
+}
+.nav-right{
+  padding-right: 3%;
+  padding-top: 1%;
+}
+.title{
+  font-size:4em;
+}
+.white{
+  color: #FFFFFF;
+}
+.blue {
+  background-color: #6CCFF6;
+}
+.grey{ 
+  background-color: #808080;
+}
+.black {
+  background-color: black;
+}
+.inline{
+  display: inline-block;
+}
+.right{
+  float: right;
+}
+.left {
+  float: left;
+}
+.cover{
+  max-height: 100%;
+  max-width: 100%;
+}
+.no-bullets {
+  list-style: none;
+}
+.no-margin{
+  margin:0 auto;
+}
+.margin-top{
+  margin-top: 4%;
+}
+.margin-bottom {
+  margin-bottom: 4%;
+}
+.margin-right{
+  margin-right: 2%;
+}
+.margin-left{
+  margin-left: 2%;
+}
+.center{
+  text-align: center;
+}
+.social{
+  padding: 2%;
+}
+.font{
+  font-size: 2rem;
+}
+.half{
+  width: 50%;
+}
+.columnContainer{
+  min-width: 100%;
+}
+.columnContainer img{
+  margin-top: 2%;
+  max-width: 55%;
+  border-radius: 50%;
+}
+.columnContainer li{
+  margin-top: 3%;
+  font-size: 3rem;
+}
+.profilepic{
+  padding-top: 3%;
+  max-width: 85%;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+}
+
+.banner {
+  background-image: url(../images/chair.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.box{
+  /* this is what is necessary */
+  margin: auto;
+}
+
+
+.eight {
+  height: 80vh;
+}
+
+
+footer{
+  background-color: #000000;
+  bottom: 0;
+}
