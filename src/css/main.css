@@ -306,6 +306,13 @@ h6{
     /* this is what is necessary */
     margin: auto;
   }
+  .banner {
+    height: 100vh;
+    background-image: url(../images/ski.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
   .full{
     height: 100vh;
   }
@@ -319,6 +326,9 @@ h6{
   .build {
     height: 140vh;
     margin: 0 auto; 
+  }
+  .sm-lg {
+    height: 155vh;
   }
 
 }
