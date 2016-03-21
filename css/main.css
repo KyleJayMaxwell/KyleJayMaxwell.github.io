@@ -27,28 +27,11 @@ h5{
 h6{
   color: #ffffff;
 }
-
-
-.container{
-  min-width: 100%;
-  min-height: 100%;
-}
 .no-decoration{
   text-decoration:none;
 }
 .insidelist{
   list-style-position: inside;
-}
-.nav-left{
-  padding-left: 3%;
-  padding-top: 1%;
-}
-.nav-right{
-  padding-right: 3%;
-  padding-top: 1%;
-}
-.title{
-  font-size:4em;
 }
 .white{
   color: #FFFFFF;
@@ -71,84 +54,271 @@ h6{
 .left {
   float: left;
 }
-.cover{
-  max-height: 100%;
-  max-width: 100%;
-}
 .no-bullets {
   list-style: none;
-}
-.no-margin{
-  margin:0 auto;
-}
-.margin-top{
-  margin-top: 4%;
-}
-.margin-bottom {
-  margin-bottom: 4%;
-}
-.margin-right{
-  margin-right: 2%;
-}
-.margin-left{
-  margin-left: 2%;
 }
 .center{
   text-align: center;
 }
-.social{
-  padding: 2%;
-}
-.font{
-  font-size: 2rem;
-}
-.half{
-  width: 50%;
-}
-.columnContainer{
-  min-width: 100%;
-}
-.columnContainer img{
-  margin-top: 2%;
-  max-width: 55%;
-  border-radius: 50%;
-}
-.columnContainer li{
-  margin-top: 3%;
-  font-size: 3rem;
-}
-.profilepic{
-  padding-top: 3%;
-  max-width: 85%;
-  border-radius: 50%;
-}
-
-.flex {
-  display: flex;
-  height: 100vh;
-}
-
-.banner {
-  background-image: url(../images/ski.jpg);
-  background-size: 100%;  
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-}
 
 
-.box{
-  /* this is what is necessary */
-  margin: auto;
+@media only screen and (min-width: 992px) {
+
+  .container{
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .nav-left{
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+  .nav-right{
+    padding-right: 3%;
+    padding-top: 1%;
+  }
+  .title{
+    font-size:4em;
+  }
+  .cover{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .no-margin{
+    margin:0 auto;
+  }
+  .margin-top{
+    margin-top: 4%;
+  }
+  .margin-bottom {
+    margin-bottom: 4%;
+  }
+  .margin-right{
+    margin-right: 2%;
+  }
+  .margin-left{
+    margin-left: 2%;
+  }
+  .social{
+    padding: 2%;
+  }
+  .font{
+    font-size: 2rem;
+  }
+  .half{
+    width: 50%;
+  }
+  .columnContainer{
+    min-width: 100%;
+  }
+  .columnContainer img{
+    margin-top: 2%;
+    max-width: 55%;
+    border-radius: 50%;
+  }
+  .columnContainer li{
+    margin-top: 3%;
+    font-size: 3rem;
+  }
+  .profilepic{
+    padding-top: 3%;
+    max-width: 85%;
+    border-radius: 50%;
+  }
+  .banner {
+    background-image: url(../images/ski.jpg);
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+  .flex {
+    display: flex;
+    height: 100vh;
+  }
+  .box{
+    /* this is what is necessary */
+    margin: auto;
+  }
+  .eight {
+    height: 80vh;
+  }
+  footer{
+    background-color: #000000;
+    bottom: 0;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width: 991px) {
+
+  .container{
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .nav-left{
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+  .nav-right{
+    padding-right: 3%;
+    padding-top: 1%;
+  }
+  .title{
+    font-size:4em;
+  }
+  .cover{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .no-margin{
+    margin:0 auto;
+  }
+  .margin-top{
+    margin-top: 4%;
+  }
+  .margin-bottom {
+    margin-bottom: 4%;
+  }
+  .margin-right{
+    margin-right: 2%;
+  }
+  .margin-left{
+    margin-left: 2%;
+  }
+  .social{
+    padding: 2%;
+  }
+  .font{
+    font-size: 2rem;
+  }
+  .half{
+    width: 50%;
+  }
+  .columnContainer{
+    min-width: 100%;
+  }
+  .columnContainer img{
+    margin-top: 2%;
+    max-width: 55%;
+    border-radius: 50%;
+  }
+  .columnContainer li{
+    margin-top: 3%;
+    font-size: 3rem;
+  }
+  .profilepic{
+    padding-top: 3%;
+    max-width: 85%;
+    border-radius: 50%;
+  }
+  .banner {
+    background-image: url(../images/ski.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+  .flex {
+    display: flex;
+    height: 100vh;
+  }
+  .box{
+    /* this is what is necessary */
+    margin: auto;
+  }
+  .eight {
+    height: 60vh;
+  }
+  .full{
+    height: 100vh;
+  }
+  footer{
+    background-color: #000000;
+    bottom: 0;
+  }
+
 }
 
+@media only screen and (max-width : 480px) {
 
-.eight {
-  height: 80vh;
-}
+  .container{
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .nav-left{
+    padding-left: 3%;
+    padding-top: 1%;
+  }
+  .nav-right{
+    padding-right: 3%;
+    padding-top: 1%;
+  }
+  .title{
+    font-size:4em;
+  }
+  .cover{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .no-margin{
+    margin:0 auto;
+  }
+  .margin-top{
+    margin-top: 4%;
+  }
+  .margin-bottom {
+    margin-bottom: 4%;
+  }
+  .margin-right{
+    margin-right: 2%;
+  }
+  .margin-left{
+    margin-left: 2%;
+  }
+  .social{
+    padding: 2%;
+  }
+  .font{
+    font-size: 2rem;
+  }
+  .half{
+    width: 100%;
+  }
+  .columnContainer{
+    min-width: 100%;
+  }
+  .columnContainer img{
+    margin-top: 2%;
+    max-width: 55%;
+    border-radius: 50%;
+  }
+  .columnContainer li{
+    margin-top: 3%;
+    font-size: 3rem;
+  }
+  .profilepic{
+    padding-top: 3%;
+    max-width: 85%;
+    border-radius: 50%;
+  }
+  .flex {
+    display: flex;
+  }
+  .box{
+    /* this is what is necessary */
+    margin: auto;
+  }
+  .full{
+    height: 100vh;
+  }
+  .eight {
+    height: 100vh;
+  }
+  footer{
+    background-color: #000000;
+    bottom: 0;
+  }
+  .build {
+    height: 140vh;
+    margin: 0 auto; 
+  }
 
-
-footer{
-  background-color: #000000;
-  bottom: 0;
 }
