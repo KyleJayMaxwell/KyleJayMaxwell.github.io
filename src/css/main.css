@@ -1,5 +1,7 @@
 /* add custom styles */
-
+html {
+  min-width: 100%;
+}
 body{
   font-family: "Times New Roman", Times, serif;
 }
