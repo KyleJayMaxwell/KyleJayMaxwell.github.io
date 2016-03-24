@@ -1,7 +1,5 @@
 /* add custom styles */
-html {
-  min-width: 100%;
-}
+
 body{
   font-family: "Times New Roman", Times, serif;
 }
@@ -150,7 +148,7 @@ h6{
   }
 
 }
-@media only screen and (min-width:481px) and (max-width: 991px) {
+@media only screen and (min-width:481px) {
 
   .container{
     min-width: 100%;
@@ -227,7 +225,7 @@ h6{
     margin: auto;
   }
   .eight {
-    height: 60vh;
+    height: 70vh;
   }
   .full{
     height: 100vh;
