@@ -1,7 +1,10 @@
-/* add custom styles */
-
 body{
-  font-family: "Times New Roman", Times, serif;
+font-size:16px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @font-face {
@@ -10,117 +13,31 @@ body{
 }
 h1{
   font-family: Supreme, "Times New Roman", Times, serif;
-}
-nav{
-  top: 0;
-  min-width: 100%;
-  background-color: #808080;
-  box-shadow: 0 4px 2px -2px black;
-  font-size: 1.2em;
-}
-a{
-  color: #6CCFF6;
-}
-h5{
-  margin-top: 5%;
-}
-h6{
-  color: #ffffff;
+  font-size: 4em;
 }
 
+.parallax { 
+    /* Full height */
+    height: 100%; 
 
-.container{
-  min-width: 100%;
-  min-height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.no-decoration{
-  text-decoration:none;
+
+.banner1 {
+      /* The image used */
+    background-image: url("../img/niagra.jpg");
 }
-.insidelist{
-  list-style-position: inside;
+.banner2 {
+      /* The image used */
+    background-image: url("../img/gCanyon.jpg");
 }
-.nav-left{
-  padding-left: 3%;
-  padding-top: 1%;
-}
-.nav-right{
-  padding-right: 3%;
-  padding-top: 1%;
-}
-.title{
-  font-size:4em;
-}
-.white{
-  color: #FFFFFF;
-}
-.blue {
-  background-color: #6CCFF6;
-}
-.grey{ 
-  background-color: #808080;
-}
-.black {
-  background-color: black;
-}
-.inline{
-  display: inline-block;
-}
-.right{
-  float: right;
-}
-.left {
-  float: left;
-}
-.cover{
-  max-height: 100%;
-  max-width: 100%;
-}
-.no-bullets {
-  list-style: none;
-}
-.no-margin{
-  margin:0 auto;
-}
-.margin-top{
-  margin-top: 4%;
-}
-.margin-bottom {
-  margin-bottom: 4%;
-}
-.margin-right{
-  margin-right: 2%;
-}
-.margin-left{
-  margin-left: 2%;
-}
-.center{
-  text-align: center;
-}
-.social{
-  padding: 2%;
-}
-.font{
-  font-size: 2rem;
-}
-.half{
-  width: 50%;
-}
-.columnContainer{
-  min-width: 100%;
-}
-.columnContainer img{
-  margin-top: 2%;
-  max-width: 55%;
-  border-radius: 50%;
-}
-.columnContainer li{
-  margin-top: 3%;
-  font-size: 3rem;
-}
-.profilepic{
-  padding-top: 3%;
-  max-width: 85%;
-  border-radius: 50%;
+.banner3 {
+      /* The image used */
+    background-image: url("../img/rMountains.jpg");
 }
 
 .flex {
@@ -128,27 +45,10 @@ h6{
   height: 100vh;
 }
 
-.banner {
-  background-image: url(../images/ski.jpg);
-  background-size: 100%;  
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-}
-
-
 .box{
   /* this is what is necessary */
   margin: auto;
 }
-
-
-.eight {
-  height: 80vh;
-}
-
-
-footer{
-  background-color: #000000;
-  bottom: 0;
+.center {
+  text-align: center;
 }
