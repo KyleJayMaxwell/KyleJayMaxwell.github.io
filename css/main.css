@@ -11,11 +11,13 @@ body, html {
     font-family: Supreme;
     src: url(../fonts/supreme.otf);
 }
+
 h1{
   font-family: Supreme, "Times New Roman", Times, serif;
+}
+.parallaxTitle{
   font-size: 4em;
 }
-
 .parallax { 
     /* Full height */
     height: 100%; 
@@ -29,25 +31,56 @@ h1{
 
 .banner1 {
       /* The image used */
-    background-image: url("../img/niagra.jpg");
+    background-image: url("../img/vondal.jpg");
 }
 .banner2 {
       /* The image used */
-    background-image: url("../img/gCanyon.jpg");
+    background-image: url("../img/2bw.jpg");
 }
 .banner3 {
       /* The image used */
-    background-image: url("../img/rMountains.jpg");
+    background-image: url("../img/cold.jpg");
+}
+
+.socialMedia{
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .flex {
   display: flex;
   height: 100vh;
 }
-
+.sectionTitle {
+  margin-left: 5%;
+  font-size: 3em;
+}
+.sectionText {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2em;
+}
+.footerTitle{
+  font-size: 2em;
+}
 .box{
   /* this is what is necessary */
   margin: auto;
+}
+.seventy{
+  width: 70%;
+}
+.white{
+  color: white;
+}
+.black {
+  color: black;
+}
+.whitebg{
+  background-color: white;
+}
+.blackbg{
+  background-color: black;
 }
 .center {
   text-align: center;
