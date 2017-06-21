@@ -15,6 +15,11 @@ body, html {
 h1{
   font-family: Supreme, "Times New Roman", Times, serif;
 }
+
+a{
+  color: DeepSkyBlue;
+}
+
 .parallaxTitle{
   font-size: 4em;
 }
@@ -45,6 +50,7 @@ h1{
 .socialMedia{
   padding-left: 1%;
   padding-right: 1%;
+  padding-bottom: 1%;
 }
 
 .flex {
