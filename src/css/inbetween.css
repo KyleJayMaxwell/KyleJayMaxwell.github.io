@@ -1,7 +1,10 @@
 /* big phones small tables */
 @media (min-width: 568px) and (max-width: 767px){
-  /* direct elements */
+  html{
+    height: 100%;
+  }
   body{
+    height:100%;
     font-family: "Times New Roman", Times, serif;
   }
   @font-face {
@@ -60,7 +63,7 @@
 
   /* scrolling background */
   .background {
-    background-size: 150%;  
+    background-size: 200%;  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 

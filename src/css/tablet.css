@@ -1,7 +1,10 @@
 /* Landscape & Portrait tablets and medium desktops */
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* direct elements */
+  html{
+    height: 100%;
+  }
   body{
+    height:100%;
     font-family: "Times New Roman", Times, serif;
   }
   @font-face {
@@ -60,7 +63,7 @@
 
   /* scrolling background */
   .background {
-    background-size: 100%;  
+    background-size: 150%;  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
